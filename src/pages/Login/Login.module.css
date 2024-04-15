@@ -1,0 +1,50 @@
+.login{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+    max-width: 480px;
+    /* flex-wrap: wrap; */
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.field{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.field label{
+    color: #C4C4C4;
+    font-size: 17px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: var(--text-secondary-color);
+    font-size: 14px;
+}
+.links a{
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.error{
+    background: #FFC529;
+    color: white;
+    padding: 20px;
+}
+
+@media(max-width: 510px){
+    .login{
+        padding: 0 10px;
+    }
+}
